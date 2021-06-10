@@ -17,11 +17,11 @@ A web application that allows users to fill in information about their team memb
 
 # Description
 
-This browser application allows a user 
+This browser application allows a user to input information answering questions posed in the terminal and once the questions have been answered, a new web page is created containing all the information given. 
 
 # Setup/Installation Requirements
 
-The application can be accessed at .
+The application can be accessed at https://kristamarbury.github.io/teamprofilegenerator/.
 
 # Known Bugs
 
