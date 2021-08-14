@@ -15,7 +15,7 @@ const generateTeam = (team) => {
     </div>
     <div class="p">
         <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">id: ${manager.getId()}</div>
-        <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">email: ${manager.getEmail()}</div>
+        <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">email: <a href="mailto:${manager.getEmail()}"> ${manager.getEmail()}</a></div>
         <div class="bdc-gray bdbs-s bdls-s bdrs-s bdts-s bdw-1 p-">office number: ${manager.getOfficeNumber()}</div>
     </div>
     </div>`;
@@ -37,7 +37,7 @@ const generateTeam = (team) => {
     </div>
     <div class="p">
         <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">id: ${engineer.getId()}</div>
-        <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">email: ${engineer.getEmail()}</div>
+        <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">email: <a href="mailto:${engineer.getEmail()}">${engineer.getEmail()}</a></div>
         <div class="bdc-gray bdbs-s bdls-s bdrs-s bdts-s bdw-1 p-">github: <a href="https://github.com/${engineer.getGithub()}">${engineer.getGithub()}</a></div>
     </div>
     </div>`;
@@ -59,7 +59,7 @@ const generateTeam = (team) => {
     </div>
     <div class="p">
         <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">id: ${intern.getId()}</div>
-        <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">email: ${intern.getEmail()}</div>
+        <div class="bdc-gray bdls-s bdrs-s bdts-s bdw-1 p-">email: <a href="mailto:${intern.getEmail()}">${intern.getEmail()}</a></div>
         <div class="bdc-gray bdbs-s bdls-s bdrs-s bdts-s bdw-1 p-">school: ${intern.getSchool()}</div>
     </div>
     </div>`;
